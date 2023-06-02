@@ -1,0 +1,27 @@
+.intro__inner {
+  color: #fff;
+  max-width: 690px;
+  margin-top: 92px;
+  margin-left: 148px;
+}
+
+@media (max-width: 1024px) {
+  .intro__inner {
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__inner {
+    max-width: 720px;
+    margin: 88px auto 0;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro__inner {
+    max-width: 288px;
+    margin: 64px auto 0;
+  }
+}
