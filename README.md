@@ -8,4 +8,4 @@
 
 
 ###  Сыллка на GitHub
-https://github.com/BenderRodriguezRobot/russian-travel/index.html
+https://benderrodriguezrobot.github.io/russian-travel/
