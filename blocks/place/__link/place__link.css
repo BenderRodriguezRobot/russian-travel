@@ -1,5 +1,13 @@
 .place__link {
   align-self: end;
-  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
 
+}
+
+
+@media (max-width: 320px) {
+  .place__link {
+    margin-left: 16px;
+  }
 }

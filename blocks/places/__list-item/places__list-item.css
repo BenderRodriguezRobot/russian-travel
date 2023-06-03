@@ -1,0 +1,28 @@
+.places__list-item {
+  margin-top: 80px;
+}
+
+.places__list-item:first-child {
+  margin-top: 92px;
+}
+
+@media (max-width: 768px) {
+  .places__list-item {
+    margin-top: 73px;
+  }
+
+  .places__list-item:first-child {
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__list-item {
+    margin-top: 50px;
+  }
+
+  .places__list-item:first-child {
+    margin-top: 64px;
+  }
+}
+

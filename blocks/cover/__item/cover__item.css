@@ -2,8 +2,9 @@
   color: #fff;
   background-image: url(../../../images/cover__background.png);
   background-size: cover;
-  max-height: 740px;
-  aspect-ratio: 8/5;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 740px;
   margin: 92px auto 0;
   text-decoration: none;
   display: flex;
@@ -11,6 +12,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  row-gap: 32px;
 
 }
 
@@ -32,6 +34,23 @@
   opacity: .8;
 }
 
+@media (max-width: 768px) {
+  .cover__item {
+    min-height: 640px;
+  }
+}
 
 
+@media (max-width: 768px) {
+  .cover__item {
+    min-height: 480px;
+    margin-top: 90px;
+  }
+}
 
+@media (max-width: 320px) {
+  .cover__item {
+    min-height: 200px;
+    margin-top: 66px;
+  }
+}

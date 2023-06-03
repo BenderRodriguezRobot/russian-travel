@@ -1,9 +1,5 @@
 .footer__link {
-  list-style: none;
+
 }
 
-@media (max-width: 320px) {
-  .footer__link {
-    width: 158px;
-  }
-}
+

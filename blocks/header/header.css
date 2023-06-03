@@ -16,5 +16,6 @@
 @media (max-width: 320px) {
   .header {
     max-width: calc(100% - 32px);
+    padding-top: 16px;
   }
 }

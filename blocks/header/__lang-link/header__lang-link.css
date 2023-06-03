@@ -12,3 +12,8 @@
     font-size: 18px;
   }
 }
+
+.header__lang-link:hover {
+  opacity: .8;
+  transition: .3s;
+}

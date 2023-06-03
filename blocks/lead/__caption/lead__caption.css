@@ -9,7 +9,17 @@
 
 }
 
+@media (max-width: 950px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
 
+@media (max-width: 500px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
 
 
 
