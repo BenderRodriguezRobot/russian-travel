@@ -1,4 +1,5 @@
 .place {
+
   color: #fff;
   display: grid;
   column-gap: 40px;
@@ -11,6 +12,7 @@
 @media (max-width: 1024px) {
   .place {
     column-gap: 32px;
+    grid-template-columns: fit-content(440px) fit-content(456px);
 
 
 
@@ -20,8 +22,7 @@
 @media (max-width: 768px) {
   .place {
     column-gap: 28px;
-    row-gap: 48px;
-
+    grid-template-columns: fit-content(340px) fit-content(352px);
 
   }
 }
@@ -29,9 +30,7 @@
 @media (max-width: 600px) {
   .place {
     grid-template-rows: fit-content(152px);
-    grid-template-columns: fit-content(460px) ;
-
+    grid-template-columns: fit-content(460px);
+    row-gap: 32px;
   }
 }
-
-

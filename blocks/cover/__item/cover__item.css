@@ -34,7 +34,7 @@
   opacity: .8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .cover__item {
     min-height: 640px;
   }
@@ -52,5 +52,6 @@
   .cover__item {
     min-height: 200px;
     margin-top: 66px;
+    row-gap: 16px;
   }
 }

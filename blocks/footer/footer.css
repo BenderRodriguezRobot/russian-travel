@@ -1,4 +1,6 @@
 .footer {
+  display: flex;
+  justify-content: space-between;
   margin: 92px 48px 24px;;
   max-width: 1184px;
 }
@@ -14,3 +16,13 @@
     margin: 64px 16px 24px;
   }
 }
+
+@media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 48px;
+
+  }
+}
+
